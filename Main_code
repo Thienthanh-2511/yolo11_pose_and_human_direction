@@ -3,8 +3,8 @@ import numpy as np
 from ultralytics import YOLO
 import pyrealsense2 as rs
 
-# Load YOLOv8 model trained for pose detection
-model = YOLO("yolov8m-pose.pt")
+# Load YOLO11 model trained for pose detection
+model = YOLO("yolo11-pose.pt")
 
 # Initialize the RealSense pipeline
 pipeline = rs.pipeline()
